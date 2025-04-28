@@ -1,7 +1,7 @@
 ## Se connecter en local :
 
-Email : testduncompte123@email.fr
-Mot de passe : Azerty123!
+Email : testduncompte123@email.fr <br>
+Mot de passe : Azerty1234!
 
 Modifiable à souhait !
 
