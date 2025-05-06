@@ -22,10 +22,12 @@ class LivreController extends Controller
     {
         $request->validate([
             'titre' => 'required|string|max:255',
+            'auteur_id' => 'required|integer|exists:auteurs,id',
         ]);
 
         Livre::create([
             'titre' => $request->titre,
+            'auteur_id' => $request->auteur_id
         ]);
 
         return redirect()->route('livres.index')->with('success', 'Un nouveau livre a été ajoutée.');
